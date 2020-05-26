@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    android:background="@drawable/gradient_list"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="279dp"
+        android:layout_height="456dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginBottom="161dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/add_phrase"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#ffffff"
+
+            android:text="@string/addphrase" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/view_phrase"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#ffffff"
+            android:text="@string/viewphrases" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/edit_phrase"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#ffffff"
+            android:text="@string/editphrase" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/language_subs"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#ffffff"
+            android:text="@string/languages" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/translate"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#ffffff"
+            android:text="@string/translates" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/offlineDataBase"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#ffffff"
+            android:text="Offline Database" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

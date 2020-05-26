@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ForeignLanguageTranslation</string>
+    <string name="translation_label">Translation:</string>
+    <string name="translate">translate</string>
+    <string name="input_hint">enter text</string>
+    <string name="target_language">Target Language</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="italian">Italian</string>
+    <string name="microphone">Microphone</string>
+    <string name="play">Play</string>
+    <string name="addbutton">Add</string>
+    <string name="addphrase">Add Phrases</string>
+    <string name="viewphrases">View Phrases</string>
+    <string name="add_instructions">Please type the phrase you want to add to the database</string>
+    <string name="editphrase">Edit/Delete Phrases</string>
+    <string name="languages">Select Desired Language Subscriptions</string>
+    <string name="translates">Translate phrases</string>
+    <string name="edit_instructions">Select the phrases from list and click edit button </string>
+    <string name="editbutton">Edit</string>
+    <string name="deletebutton">Delete</string>
+    <string name="translatebutton">Translate</string>
+    <string name="chooseWord">Please Select the desired word</string>
+    <string name="ChooseLanguages">Please Select the Desired Language</string>
+    <string name="offlineSave">Save in Offline</string>
+</resources>
